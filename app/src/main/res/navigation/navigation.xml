@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/startCalculatorFragment">
+
+    <fragment
+        android:id="@+id/startCalculatorFragment"
+        android:name="com.example.calculator_of_trip.StartFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_startCalculatorFragment_to_priceFragment"
+            app:destination="@id/priceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/priceFragment"
+        android:name="com.example.calculator_of_trip.PriceFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_priceFragment_to_consumptionFragment"
+            app:destination="@id/consumptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/distanceFragment"
+        android:name="com.example.calculator_of_trip.DistanceFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_distanceFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/consumptionFragment"
+        android:name="com.example.calculator_of_trip.CarConsumptionFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_consumptionFragment_to_distanceFragment"
+            app:destination="@id/distanceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.calculator_of_trip.ResultFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_resultFragment_to_startCalculatorFragment"
+            app:destination="@id/startCalculatorFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_title_result"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        tools:text="R$ 250.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/tv_subtitle_result"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Revisao dos dados inseridos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_result"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_price_result"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="30dp"
+        android:text="Preço"
+        app:layout_constraintEnd_toStartOf="@+id/gl_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subtitle_result" />
+
+    <TextView
+        android:id="@+id/tv_consumption_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Consumo"
+        app:layout_constraintEnd_toStartOf="@+id/gl_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_result" />
+
+    <TextView
+        android:id="@+id/tv_distance_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Distance"
+        app:layout_constraintEnd_toStartOf="@+id/gl_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_consumption_result" />
+
+    <TextView
+        android:id="@+id/tv_price_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="30.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_result"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subtitle_result"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_consumption_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="25 litros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_result"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_value"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_distance_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="150 km"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gl_result"
+        app:layout_constraintTop_toBottomOf="@+id/tv_consumption_value"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Calculo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"
+        android:orientation="vertical">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <Button
+        android:id="@+id/btn_back_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Voltar"
+        android:layout_marginLeft="-50dp"
+        app:layout_constraintEnd_toStartOf="@+id/gl_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

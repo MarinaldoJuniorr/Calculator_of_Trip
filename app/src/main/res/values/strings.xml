@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator_of_trip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="format_gas_price">R$ %.2f</string>
+    <string name="format_distance">%.1f km</string>
+    <string name="format_consumption">%.2f km/l</string>
+    <string name="format_total">Total: R$ %.2f</string>
+</resources>
