@@ -48,7 +48,7 @@ class PriceFragment : Fragment() {
     }
 
     private fun backButton() {
-        binding.btnBackPrice.setOnClickListener {
+        binding.ivBackPrice.setOnClickListener {
             findNavController().popBackStack()
         }
     }

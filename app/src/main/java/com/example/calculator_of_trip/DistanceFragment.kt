@@ -48,7 +48,7 @@ class DistanceFragment : Fragment() {
     }
 
     private fun backButton(){
-        binding.btnBackDistance.setOnClickListener {
+        binding.ivBackDistance.setOnClickListener {
             findNavController().popBackStack()
         }
     }

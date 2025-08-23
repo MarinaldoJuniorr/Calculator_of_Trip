@@ -48,7 +48,7 @@ class CarConsumptionFragment : Fragment() {
     }
 
     private fun backButton(){
-        binding.btnBackConsumption.setOnClickListener {
+        binding.ivBackConsumption.setOnClickListener {
             findNavController().popBackStack()
         }
     }

@@ -1,10 +1,8 @@
 package com.example.calculator_of_trip
 
-import android.adservices.ondevicepersonalization.EventInput
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-
 
 
 class FuelCalculatorViewModel : ViewModel() {

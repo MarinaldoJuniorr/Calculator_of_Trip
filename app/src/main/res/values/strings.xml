@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">Calculator_of_trip</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="format_gas_price">R$ %.2f</string>
     <string name="format_distance">%.1f km</string>
     <string name="format_consumption">%.2f km/l</string>
-    <string name="format_total">Total: R$ %.2f</string>
+    <string name="format_total">Total: \n R$ %.2f</string>
+    <string name="app_logo_content">app_logo</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="title_start">Calculadora de gasto de combustível</string>
+    <string name="subtitle_one_start">Não tem idéia de quanto vai gastar de gasolina na sua viagem?</string>
+    <string name="subtitle_two_start">Então esta no lugar certo</string>
+    <string name="step_1_3">Passo 1 de 3</string>
+    <string name="subtitle_gas">Preço do combustível por litro</string>
+    <string name="back_btn">back_btn</string>
+    <string name="btn_next">Próximo</string>
+    <string name="step_2_3">Passo 2 de 3</string>
+    <string name="ie_gas_price">Ex. 1.70</string>
+    <string name="ie_consumption">Ex. 5 km/l</string>
+    <string name="step_3_3">Passo 3 de 3</string>
+    <string name="subtitle_distance">Distância para destino final</string>
+    <string name="subtitle_consumption">Consumo de combustível do carro por km</string>
+    <string name="ie_distance">Ex. 150 km</string>
+    <string name="title_price_results">Preço</string>
+    <string name="title_consumption_results">Consumo</string>
+    <string name="title_distance_results">Distance</string>
 </resources>

@@ -76,7 +76,7 @@ class ResultFragment : Fragment() {
     }
 
     private fun backButton(){
-        binding.btnBackResult.setOnClickListener {
+        binding.ivBackResults.setOnClickListener {
             findNavController().popBackStack()
         }
     }

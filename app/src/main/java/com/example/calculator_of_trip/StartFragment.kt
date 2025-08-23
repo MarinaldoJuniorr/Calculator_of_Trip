@@ -32,7 +32,7 @@ class StartFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         // chamar funcao reset do ViewModel
 
-        binding.buttonStart.setOnClickListener {
+        binding.btnStart.setOnClickListener {
             findNavController().navigate(R.id.action_startCalculatorFragment_to_priceFragment)
 
         }
