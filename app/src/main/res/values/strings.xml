@@ -23,4 +23,6 @@
     <string name="title_price_results">Preço</string>
     <string name="title_consumption_results">Consumo</string>
     <string name="title_distance_results">Distance</string>
+    <string name="btn_new_calculation">Novo Calculo</string>
+    <string name="title_review">Revisao dos dados inseridos</string>
 </resources>

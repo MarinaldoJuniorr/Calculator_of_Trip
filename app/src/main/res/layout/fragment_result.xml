@@ -56,7 +56,7 @@
         android:id="@+id/tv_subtitle_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Revisao dos dados inseridos"
+        android:text="@string/title_review"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -145,7 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/orange"
-        android:text="Novo Calculo"
+        android:text="@string/btn_new_calculation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
